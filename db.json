@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img_url": "",
+      "name": "coffee",
+      "price": 2000,
+      "reviews": [
+        {
+          "id": 1,
+          "username": "swing",
+          "comment": "delicious",
+          "date": "2023-02-20",
+          "star": 5
+        }
+      ]
+    }
+  ]
+}

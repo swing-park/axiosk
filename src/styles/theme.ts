@@ -15,7 +15,7 @@ export const GlobalStyle = createGlobalStyle`
     width : 100%;
     height : 100vh;
     color : ${({ theme }) => theme.color.black};
-    background-color : ${({ theme }) => theme.color.indigo_0}
+    background-color : ${({ theme }) => theme.color.orange_4}
   }
 
   a {
@@ -27,7 +27,9 @@ export const GlobalStyle = createGlobalStyle`
 const color = {
   black: "#111",
   white: "#fff",
-  indigo_0: "#edf2ff",
+  orange_1: "#ffe8cc",
+  orange_4: "#ffa94d",
+  gray_1: "#f1f3f5",
 };
 
 export type Color = typeof color;
